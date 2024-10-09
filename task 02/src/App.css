@@ -1,0 +1,53 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-card {
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Padding inside the card */
+  margin: 20px; /* Margin around the card */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.2s; /* Smooth transform effect */
+}
+
+.image-card:hover {
+  transform: scale(1.05); /* Slightly scale the card on hover */
+}
+
+.image-card-img {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Rounded corners for image */
+}
+
+.image-card-description {
+  margin-top: 12px; /* Space between the image and the description */
+  font-size: 16px; /* Font size for the description */
+  color: #333; /* Dark gray text color */
+}
+
+.image-card-link {
+  color: blue; /* Link color */
+  text-decoration: underline; /* Underline for links */
+}
+
+.image-card-button {
+  background-color: blue; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  padding: 10px 15px; /* Button padding */
+  border-radius: 5px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 10px; /* Space above button */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.image-card-button:hover {
+  background-color: darkblue; /* Darker blue on hover */
+}
